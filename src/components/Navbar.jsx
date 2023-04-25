@@ -18,14 +18,32 @@ const Navbar = () => (
     }}
   >
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
-        <img src={logo} alt="logo" height={45}/>
-        <h2 
+      <img src={logo} alt="logo" height={45} />
+      <h2
         style={{
-          color: 'white',
-          fontWeight: 'bold'
+          color: "white",
+          fontWeight: "bold",
         }}
-        >CodeTube</h2>
+      >
+        CodeTube
+      </h2>
     </Link>
+    <h1
+      style={{
+        color: "red",
+        fontSize: 35,
+      }}
+    >
+      Code
+      <span
+        style={{
+          color: "white",
+        }}
+      >
+        Tube
+      </span>
+    </h1>
+
     <SearchBar />
   </Stack>
 );
