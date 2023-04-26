@@ -28,21 +28,7 @@ const Navbar = () => (
         CodeTube
       </h2>
     </Link>
-    <h1
-      style={{
-        color: "red",
-        fontSize: 35,
-      }}
-    >
-      Code
-      <span
-        style={{
-          color: "white",
-        }}
-      >
-        Tube
-      </span>
-    </h1>
+
 
     <SearchBar />
   </Stack>
