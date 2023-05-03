@@ -50,7 +50,7 @@ const Feed = () => {
             color: "#fff",
           }}
         >
-          copyright 2023 panditdhamdhere
+          copyright 2023 panditdhamdhere fllow us
         </Typography>
       
       </Box>
